@@ -28,6 +28,8 @@
         <module>microservice_consumer_dept_80</module>
         <module>microservice_provider_dept_8001</module>
         <module>microservice_eureka_7001</module>
+        <module>microservice_eureka_7002</module>
+        <module>microservice_eureka_7003</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
