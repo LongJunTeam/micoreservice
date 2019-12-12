@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by Administrator on 2019/11/25 0025.
@@ -33,5 +34,10 @@ public class DeptController_Consumer {
     @GetMapping
     public List<Dept> list(){
         return restTemplate.getForObject(REST_URL_PREFIX+"/dept/list",List.class);
+    }
+
+    @RequestMapping("/consumer/dept/discovery")
+    public Object discovery(){
+        return restTemplate.getForObject(REST_URL_PREFIX+"/dept/discovery", Object.class);
     }
 }
