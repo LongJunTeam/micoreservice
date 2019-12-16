@@ -3,7 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="svn" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/microservice_eureka_7002" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/microservice_eureka_7003" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/microservice_eureka_7002" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/microservice_eureka_7003" vcs="Git" />
   </component>
 </project>
