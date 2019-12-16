@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/microservice_eureka_7002/src/main/com/wei/springcloud/EurekaServer_7002_App.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -12,6 +15,8 @@
         <module name="microservice_eureka_7002" />
         <module name="microservice_eureka_7003" />
         <module name="microservice_provider_dept_8001" />
+        <module name="microservice_provider_dept_8002" />
+        <module name="microservice_provider_dept_8003" />
         <module name="microserviceapi" />
       </profile>
     </annotationProcessing>
@@ -22,6 +27,8 @@
       <module name="microservice_eureka_7002" target="1.8" />
       <module name="microservice_eureka_7003" target="1.8" />
       <module name="microservice_provider_dept_8001" target="1.8" />
+      <module name="microservice_provider_dept_8002" target="1.8" />
+      <module name="microservice_provider_dept_8003" target="1.8" />
       <module name="microserviceapi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
